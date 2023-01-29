@@ -30,24 +30,28 @@ export function Lista({ listTransactions, lixeira, remove }) {
                 <p className="cardDescription">{lista.description} </p>
                 <p className="cardType">{lista.type} </p>
                 <p className="cardValue">${lista.value} </p>
-                <img
-                  className="lixeira"
-                  src={lixeira}
-                  alt=""
-                  onClick={() => remove(lista.id)}
-                />
+                <div className="lixeira_Container">
+                  <img
+                    className="lixeira"
+                    src={lixeira}
+                    alt=""
+                    onClick={() => remove(lista.id)}
+                  />
+                </div>
               </li>
             ) : (
               <li className="cardDespesa">
                 <p className="cardDescription">{lista.description} </p>
                 <p className="cardType">{lista.type} </p>
                 <p className="cardValue">${lista.value} </p>
-                <img
-                  className="lixeira"
-                  src={lixeira}
-                  alt=""
-                  onClick={() => remove(lista.id)}
-                />
+                <div className="lixeira_Container">
+                  <img
+                    className="lixeira"
+                    src={lixeira}
+                    alt=""
+                    onClick={() => remove(lista.id)}
+                  />
+                </div>
               </li>
             )
           )}

@@ -70,10 +70,7 @@ ul {
   width: 100%;
   margin-bottom: 8px;
 }
-.lixeira {
-  margin-top: 20px;
-  margin-left: 14px;
-}
+
 .lista_Container {
   overflow-y: auto;
 }
@@ -85,4 +82,18 @@ ul {
   background-color: var(--Grey-01);
   border-left: 4px solid var(--Grey-02);
   margin-bottom: 19px;
+}
+.lixeira_Container {
+  height: 22px;
+  width: 22px;
+  background-color: var(--Grey-02);
+  margin-top: 20px;
+  margin-left: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lixeira_Container:hover {
+  background-color: var(--Grey-01);
+  cursor: pointer;
 }

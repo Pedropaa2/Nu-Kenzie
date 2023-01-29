@@ -17,6 +17,11 @@ header {
   border: none;
   margin-right: 25px;
 }
+.inicio:hover {
+  background-color: #343a40;
+  color: var(--Color-white);
+  cursor: pointer;
+}
 .kenzieHeader {
   margin-left: 20px;
 }

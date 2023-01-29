@@ -7,7 +7,9 @@ export function HomePage({ kenzie, login, aside }) {
         <img className="kenzie" src={kenzie} alt="" />
         <h2 className="siteInfo">Centralize o controle das suas finanças</h2>
         <p className="complement">de forma rápida e segura</p>
-        <button onClick={login}>Iniciar</button>
+        <button className="buttonHome" onClick={login}>
+          Iniciar
+        </button>
       </section>
       <img src={aside} alt="" className="asideImg" />
     </div>

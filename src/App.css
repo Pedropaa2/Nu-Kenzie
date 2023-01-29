@@ -36,7 +36,7 @@
     position: relative;
     min-height: 87px;
   }
-  .lixeira {
+  .lixeira_Container {
     position: absolute;
     top: 8px;
     right: 10px;
