@@ -1,0 +1,58 @@
+.homePage_Container {
+  background-color: var(--Grey-04);
+  height: 100vh;
+  width: 100vw;
+}
+section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.kenzie {
+  color: var(--Color-white);
+  height: 18px;
+  width: 123px;
+  margin-top: 84px;
+  margin-bottom: 30px;
+}
+.siteInfo {
+  color: var(--Color-white);
+  font-size: 38px;
+  line-height: 48px;
+  margin-bottom: 28px;
+}
+.complement {
+  color: var(--Color-white);
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+button {
+  background-color: var(--Color-primary);
+  color: var(--Color-white);
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.asideImg {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+  min-height: 340px;
+}
+
+@media (min-width: 768px) {
+  .homePage_Container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .asideImg {
+    width: 40%;
+    min-width: 40%;
+  }
+  section {
+    width: 35%;
+  }
+}

@@ -1,0 +1,88 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 351px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.example {
+  margin: 0 auto;
+  width: 80%;
+  background-color: var(--Grey-01);
+  height: 90px;
+  margin-top: 20px;
+}
+.enfeite {
+  width: 60%;
+  height: 14px;
+  background-color: var(--Grey-02);
+  margin-top: 25px;
+  margin-left: 12px;
+}
+.enfeiteDois {
+  width: 20%;
+  height: 14px;
+  background-color: var(--Grey-02);
+  margin-top: 14px;
+  margin-left: 12px;
+}
+.resumo {
+  font-size: 16px;
+  margin: 0 auto;
+  width: 80%;
+}
+.noCard {
+  font-size: 22px;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 16px;
+}
+.cardEntrada {
+  height: 156px;
+  min-height: 156px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--Grey-01);
+  border-left: 4px solid var(--Color-secondary);
+  margin-bottom: 19px;
+}
+.cardDescription {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.cardType {
+  color: #343a40;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.cardValue {
+  color: #343a40;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.resumoCard {
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.lixeira {
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.lista_Container {
+  overflow-y: auto;
+}
+.cardDespesa {
+  height: 156px;
+  min-height: 156px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--Grey-01);
+  border-left: 4px solid var(--Grey-02);
+  margin-bottom: 19px;
+}

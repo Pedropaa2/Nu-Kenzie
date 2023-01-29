@@ -1,0 +1,65 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 351px;
+
+  border: solid 1px var(--Grey-02);
+  margin: 0 auto;
+}
+.form_Container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.data_Container {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  background-color: var(--Grey-01);
+
+  height: 53px;
+  width: 100%;
+  margin-bottom: 42px;
+  border-radius: 8px;
+  border: none;
+}
+
+.labelDescription {
+  margin-top: 38px;
+  margin-bottom: 12px;
+}
+.labelValue {
+  margin-bottom: 9px;
+}
+.labelType {
+  margin-bottom: 9px;
+}
+.value {
+  height: 48px;
+  width: 128px;
+  border-radius: 8px;
+  background-color: var(--Grey-01);
+  border: solid 1px var(--Grey-01);
+}
+.type {
+  width: 150px;
+  height: 48px;
+  background-color: var(--Grey-01);
+  border: solid 1px var(--Grey-01);
+  border-radius: 8px;
+}
+.insertValue {
+  border: none;
+  margin-top: 33px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+}

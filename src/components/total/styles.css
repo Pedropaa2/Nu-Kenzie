@@ -1,0 +1,28 @@
+.total_Container {
+  height: 96px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid var(--Grey-02);
+  margin-top: 24px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.pTotal {
+  font-size: 16px;
+  color: var(--Grey-04);
+}
+.numberTotal {
+  color: var(--Color-primary);
+}
+.pValue {
+  font-size: 12px;
+  color: #343a40;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
