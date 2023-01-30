@@ -3,11 +3,11 @@ import kenzie2 from "./components/Assets/Kenzie2.svg";
 import aside from "./components/Assets/homePageImage.svg";
 import lixeira from "./components/Assets/trash.svg";
 import { useState } from "react";
-import { Form } from "./components/Form";
-import { Header } from "./components/Header";
-import { HomePage } from "./components/HomePage";
-import { Lista } from "./components/List";
-import { TotalMoney } from "./components/Total";
+import { Form } from "./components/Form/Form";
+import { Header } from "./components/Header/Header";
+import { HomePage } from "./components/HomePage/Home";
+import { Lista } from "./components/List/List";
+import { TotalMoney } from "./components/Total/Total";
 import "./App.css";
 function App() {
   const [logedInfo, setLogedInfo] = useState(false);
