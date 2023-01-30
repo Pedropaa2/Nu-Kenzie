@@ -66,6 +66,9 @@ body {
   .type {
     width: auto;
   }
+  .formAndTotal {
+    width: 400px;
+  }
 }
 @media (min-width: 960px) {
   body {
