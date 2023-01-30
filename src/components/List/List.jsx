@@ -1,6 +1,6 @@
 import "../../globalstyle.css";
 import React from "react";
-import "./style.css";
+import "./List.css";
 export function Lista({ listTransactions, lixeira, remove }) {
   return (
     <div className="lista_Container">

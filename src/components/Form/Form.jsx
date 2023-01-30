@@ -1,5 +1,5 @@
 import "../../globalstyle.css";
-import "./styles.css";
+import "./Form.css";
 import { useState } from "react";
 export function Form({ listTransactions, setListTransactions }) {
   const [description, setDescription] = useState("");

@@ -1,5 +1,5 @@
 import "../../globalstyle.css";
-import "./styles.css";
+import "./Header.css";
 export function Header({ logout, kenzie }) {
   return (
     <header>

@@ -1,6 +1,6 @@
 import "../../globalstyle.css";
 import React from "react";
-import "./styles.css";
+import "./Total.css";
 export function TotalMoney({ listTransactions }) {
   console.log(listTransactions);
   const total = listTransactions.reduce((prevValue, currentValue) => {

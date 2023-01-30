@@ -1,5 +1,5 @@
 import "../../globalstyle.css";
-import "./style.css";
+import "./Home.css";
 export function HomePage({ kenzie, login, aside }) {
   return (
     <div className="homePage_Container">
