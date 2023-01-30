@@ -1,7 +1,5 @@
 .homePage_Container {
   background-color: var(--Grey-04);
-  height: 100vh;
-  width: 100vw;
 }
 section {
   width: 90%;
