@@ -13,21 +13,21 @@ ul {
   height: 90px;
   margin-top: 20px;
 }
-.enfeite {
+.ornamet {
   width: 60%;
   height: 14px;
   background-color: var(--Grey-02);
   margin-top: 25px;
   margin-left: 12px;
 }
-.enfeiteDois {
+.ornamentTwo {
   width: 20%;
   height: 14px;
   background-color: var(--Grey-02);
   margin-top: 14px;
   margin-left: 12px;
 }
-.resumo {
+.resume {
   font-size: 16px;
   margin: 0 auto;
   width: 80%;
@@ -38,7 +38,7 @@ ul {
   width: 80%;
   margin-top: 16px;
 }
-.cardEntrada {
+.cardEntry {
   height: 156px;
   min-height: 156px;
   width: 100%;
@@ -64,17 +64,17 @@ ul {
   margin-top: 20px;
   margin-left: 14px;
 }
-.resumoCard {
+.resumeCard {
   font-size: 16px;
   margin: 0 auto;
   width: 100%;
   margin-bottom: 8px;
 }
 
-.lista_Container {
+.list_Container {
   overflow-y: auto;
 }
-.cardDespesa {
+.cardExpense {
   height: 156px;
   min-height: 156px;
   width: 100%;
@@ -83,7 +83,7 @@ ul {
   border-left: 4px solid var(--Grey-02);
   margin-bottom: 19px;
 }
-.lixeira_Container {
+.trash_Container {
   height: 22px;
   width: 22px;
   background-color: var(--Grey-02);
@@ -93,7 +93,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.lixeira_Container:hover {
+.trash_Container:hover {
   background-color: var(--Grey-01);
   cursor: pointer;
 }

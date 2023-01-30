@@ -3,50 +3,50 @@ import React from "react";
 import "./List.css";
 export function Lista({ listTransactions, lixeira, remove }) {
   return (
-    <div className="lista_Container">
+    <div className="list_Container">
       {listTransactions.length <= 0 ? (
         <ul>
-          <p className="resumo">Resumo financeiro</p>
+          <p className="resume">Resumo financeiro</p>
           <h2 className="noCard">Você ainda não possui nenhum lançamento</h2>
           <li className="example">
-            <p className="enfeite"></p>
-            <p className="enfeiteDois"></p>
+            <p className="ornament"></p>
+            <p className="ornamentTwo"></p>
           </li>
           <li className="example">
-            <p className="enfeite"></p>
-            <p className="enfeiteDois"></p>
+            <p className="ornament"></p>
+            <p className="ornamentTwo"></p>
           </li>
           <li className="example">
-            <p className="enfeite"></p>
-            <p className="enfeiteDois"></p>
+            <p className="ornament"></p>
+            <p className="ornamentTwo"></p>
           </li>
         </ul>
       ) : (
         <ul>
-          <p className="resumoCard">Resumo financeiro</p>
+          <p className="resumeCard">Resumo financeiro</p>
           {listTransactions.map((lista) =>
             lista.type === "Entrada" ? (
-              <li className="cardEntrada">
+              <li className="cardEntry">
                 <p className="cardDescription">{lista.description} </p>
                 <p className="cardType">{lista.type} </p>
                 <p className="cardValue">${lista.value} </p>
                 <div
-                  className="lixeira_Container"
+                  className="trash_Container"
                   onClick={() => remove(lista.id)}
                 >
-                  <img className="lixeira" src={lixeira} alt="" />
+                  <img className="trash" src={lixeira} alt="" />
                 </div>
               </li>
             ) : (
-              <li className="cardDespesa">
+              <li className="cardExpense">
                 <p className="cardDescription">{lista.description} </p>
                 <p className="cardType">{lista.type} </p>
                 <p className="cardValue">${lista.value} </p>
                 <div
-                  className="lixeira_Container"
+                  className="trash_Container"
                   onClick={() => remove(lista.id)}
                 >
-                  <img className="lixeira" src={lixeira} alt="" />
+                  <img className="trash" src={lixeira} alt="" />
                 </div>
               </li>
             )

@@ -47,7 +47,7 @@ export function Form({ listTransactions, setListTransactions }) {
             </label>
             <select
               name=""
-              id="tipo"
+              id="type"
               className="type"
               onChange={(event) => setType(event.target.value)}
               required
