@@ -23,9 +23,6 @@ body {
     display: flex;
     justify-content: center;
   }
-  .formAndTotal {
-    width: 40%;
-  }
   .lista_Container {
     width: 50%;
     max-height: 80vh;
@@ -85,9 +82,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  .formAndTotal {
-    width: 40%;
-  }
+
   .lista_Container {
     width: 50%;
     max-height: 80vh;
